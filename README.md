@@ -28,3 +28,10 @@ Visual object recognition on iOS for contextual home automation using Arduino Yu
 - Accessible Solution for CNN: Jetpac's [DeepBeliefSDK]
 - Embedded System: [Arduino Yun]
 - Wireless Technology: WiFi -> Secure Shell -> [NMSSH]
+
+
+
+[DeepBeliefSDK]:https://github.com/jetpacapp/DeepBeliefSDK
+[Convolutional Neural Networks]:http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf
+[Arduino Yun]:http://www.arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN
+[NMSSH]:https://github.com/Lejdborg/NMSSH
