@@ -19,7 +19,7 @@ Visual object recognition on iOS for contextual home automation using Arduino Yu
 ##### Main file: TrainViewController.m
 
 ####Include DeepBelief header
-Using the SDK for Jetpac’s Deep Belief image recognition framework, a network object is created by jpcnn_create_network() based on the pre-trained network in the attached jetpac.ntwk file. Initial classification is carried out by jpcnn_classify_image() on the penultimate layer of the network to extract a set of 4096 features of each processed image. These features is then fed into a support vector machine (SVM) that we train using jpcnn_train() to differentiate between our custom objects and predict the captured object, and the final decision is made through a simple decision making logic stage.
+Using the SDK for Jetpac’s Deep Belief image recognition framework, a network object is created by jpcnn_create_network( ) based on the pre-trained network in the attached jetpac.ntwk file. Initial classification is carried out by jpcnn_classify_image( ) on the penultimate layer of the network to extract a set of 4096 features of each processed image. These features are then fed into a support vector machine (SVM) that we train using jpcnn_train( ) to differentiate between our custom objects and predict the captured object, and the final decision is made through a simple decision making logic stage.
 
 ####Camera capture using AVFoundation classes -> setupAVCapture: method
 Source images are captured by the iOS device video camera. First an AVCaptureSession is initialised to use an AVCaptureDevice via an AVCaptureConnection. Captured frames are periodically passed as a parameter to captureOutput: didOutputSampleBuffer: method.
