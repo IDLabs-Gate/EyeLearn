@@ -12,7 +12,7 @@
 	<dict>
 		<key>8F2BB008674A7074F818814ABFEFB85ACE31D61D</key>
 		<string>https://bitbucket.org/theCrescentPirate/avdeeptrain.git</string>
-		<key>F667A4CB57C0326C718B3D3F0CE1A0EF826C2963</key>
+		<key>F9E5DE36D23B5782D5443D730214133B9198752D</key>
 		<string>https://bitbucket.org/theCrescentPirate/eyelearn.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
@@ -21,7 +21,7 @@
 	<dict>
 		<key>8F2BB008674A7074F818814ABFEFB85ACE31D61D</key>
 		<string>../../../AVDeepTrain</string>
-		<key>F667A4CB57C0326C718B3D3F0CE1A0EF826C2963</key>
+		<key>F9E5DE36D23B5782D5443D730214133B9198752D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -29,7 +29,7 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F667A4CB57C0326C718B3D3F0CE1A0EF826C2963</string>
+	<string>F9E5DE36D23B5782D5443D730214133B9198752D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -44,7 +44,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F667A4CB57C0326C718B3D3F0CE1A0EF826C2963</string>
+			<string>F9E5DE36D23B5782D5443D730214133B9198752D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>EyeLearn</string>
 		</dict>
