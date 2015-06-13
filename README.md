@@ -21,3 +21,10 @@ Visual object recognition on iOS for contextual home automation using Arduino Yu
 - 11> Set-up and test the mechanical interface <( 8,9 ) 
 - 12> Revisit the set of controls/states and tweak its UI overlay <( all ) 
 - 13> Connect and test the whole system <( all ) 
+
+###Basic Determinations:
+- Object Recognition technique: Deep Learning 
+-> [Convolutional Neural Networks]
+- Accessible Solution for CNN: Jetpac's [DeepBeliefSDK]
+- Embedded System: [Arduino Yun]
+- Wireless Technology: WiFi -> Secure Shell -> [NMSSH]
