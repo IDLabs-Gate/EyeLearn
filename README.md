@@ -53,7 +53,7 @@ When the user tap on the screen the tapAciton: method draws a 300x300*1.33 recta
 The Face detector needs to correctly know the orientation of the captured image in order to correctly extract face features. The App has a fixed orientation of Landscape-Right, and the matching setting with it is to set the CIDetectorImageOrientation in the options dictionary of the featuresInImge: options: method to the integer ( 6 ) which denotes the enum value: PHOTOS_EXIF_0ROW_RIGHT_0COL_TOP
 
 ####YunConnect -> NMSSH
-The SSH ObjC library NMSSH is used to establish a connection via WiFi with possible multiple Arduino Yun devices and open a telnet chat session with them. A simplified user interface encapsulates these chat sessions into tasks that are stored in correspondence to certain Yun device in a certain object. When an object is tapped and a corresponding Yun device is connected to the App, a popover appears with all stored tasks that can be executed in that device.
+The SSH ObjC library NMSSH is used to establish a connection via WiFi with possibly multiple Arduino Yun devices and open a telnet chat session with them. A simplified user interface encapsulates these chat sessions into tasks that are stored in correspondence to certain Yun device in a certain object. When an object is tapped and a corresponding Yun device is connected to the App, a popover appears with all stored tasks that can be executed in that device.
 
 ![Control] (https://github.com/IDLabs-Gate/EyeLearn/blob/master/control_pic.png)
 
