@@ -17,10 +17,7 @@ Visual object recognition on iOS for contextual home automation using Arduino Yu
 - **Wireless Technology:** WiFi -> Secure Shell -> [NMSSH]
 
 -
-
 ###EyeLearn Xcode project:
-
-##### Main file: TrainViewController.m
 
 -
 ####Include DeepBelief header
