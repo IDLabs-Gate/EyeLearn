@@ -56,7 +56,7 @@ Saved SVM predictors are automatically synced to Dropbox account storage, and ca
 
 -
 ####Tap Action Selection -> Window 
-When the user tap on the screen the tapAciton: method draws a 300x300*1.33 rectangle around his finger and extract the corresponding window from the video feed to be the only one used in classification algorithm. The tap triggers a decision making to identify the object in the selection window and the result is displayed in a popover from the tap point that carries the name of the object and a list of saved tasks related to it that can be chosen to control the object using Arduino Yun devices.
+When the user taps on the screen the tapAciton: method draws a 300x300*1.33 rectangle around his finger and extract the corresponding window from the video feed to be the only one used in classification algorithm. The tap triggers a decision making to identify the object in the selection window and the result is displayed in a popover from the tap point that carries the name of the object and a list of saved tasks related to it that can be chosen to control the object using Arduino Yun devices.
 
 -
 ####Video Orientation 
