@@ -29,7 +29,7 @@ An AVCaptureVideoPreviewLayer  is also added to the background to display the vi
 
 -
 ####Frames obtained in captureOutput: didOutputSampleBuffer: method 
-the passed sample buffer needs to be accessed by CMSampleBufferGetImageBuffer( ) to get the pixel buffer. A Core Image CIImage is then initialised with the data to under go further editing before entering the classification stage.
+The passed sample buffer needs to be accessed by CMSampleBufferGetImageBuffer( ) to get the pixel buffer. A Core Image CIImage is then initialised with the data to under go further editing before entering the classification stage.
 A state machine is used to decide which course of action to take with the Core Image according to the current state of the program, whether in prediction mode or training mode or otherwise, and whether Face detection option is activated.
 Preprocessing and classification is carried out in a global dispatch queue of high priority, it has a simple boolean lock to prevent issuing another block until the one at hand finishes off. Processing can go mainly into routes: runAlgorithmOnFrame: and runFaceDetectionOnFram:
 
