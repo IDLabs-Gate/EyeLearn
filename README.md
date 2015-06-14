@@ -9,7 +9,7 @@ Visual object recognition on iOS for contextual home automation using Arduino Yu
 “Build an AR iOS App that recognises a controllable object in the video feed from camera, then presents relevant UI to the user and establishes a wireless connection with the embedded system in the object. The connection is to send control signals from the App and receive state data to present to the user. The embedded system should be capable of driving mechanical elements (e.g. DC motors) in the object.”
 
 -
-###Basic Determinations:
+###Basic Determinations
 - **Object Recognition technique:** Deep Learning 
 -> [Convolutional Neural Networks]
 - **Accessible Solution for CNN:** Jetpac's [DeepBeliefSDK]
@@ -17,9 +17,8 @@ Visual object recognition on iOS for contextual home automation using Arduino Yu
 - **Wireless Technology:** WiFi -> Secure Shell -> [NMSSH]
 
 -
-###EyeLearn Xcode project:
+###EyeLearn Xcode project
 
--
 ####Include DeepBelief header
 Using the SDK for Jetpac’s Deep Belief image recognition framework, a network object is created by jpcnn_create_network( ) based on the pre-trained network in the attached jetpac.ntwk file. Initial classification is carried out by jpcnn_classify_image( ) on the penultimate layer of the network to extract a set of 4096 features of each processed image. These features are then fed into a support vector machine (SVM) that we train using jpcnn_train( ) to differentiate between our custom objects and predict the captured object, and the final decision is made through a simple decision making logic stage.
 
