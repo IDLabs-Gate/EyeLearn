@@ -64,7 +64,7 @@ The Face detector needs to correctly know the orientation of the captured image 
 
 -
 ####YunConnect -> NMSSH
-The SSH ObjC library NMSSH is used to establish a connection via WiFi with possibly multiple Arduino Yun devices and open a telnet chat session with them. A simplified user interface encapsulates these chat sessions into tasks that are stored in correspondence to certain Yun device in a certain object. When an object is tapped and a corresponding Yun device is connected to the App, a popover appears with all stored tasks that can be executed in that device.
+The SSH ObjC library NMSSH is used to establish a connection via WiFi with possibly multiple Arduino Yun devices and open a telnet chat session with them. A simplified user interface encapsulates these chat sessions into tasks that are stored in correspondence to certain Yun device in a certain object. When an object is tapped and a corresponding Yun device is connected to the App, a popover appears with all stored tasks that can be executed in that device. Example code for Arduino is provided in 'Arduino Code' directory, where the sent messages from the App are interpreted to control the onboard LED and external motors of different types (DC/Servo/Stepper).
 
 ![Control] (https://github.com/IDLabs-Gate/EyeLearn/blob/master/control_pic.png)
 
