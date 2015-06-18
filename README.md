@@ -60,7 +60,7 @@ When the user taps on the screen the tapAciton: method draws a 300x300*1.33 rect
 
 -
 ####Video Orientation 
-The Face detector needs to correctly know the orientation of the captured image in order to correctly extract face features. The App has a fixed orientation of Landscape-Right, and the matching setting with it is to set the CIDetectorImageOrientation in the options dictionary of the featuresInImge: options: method to the integer ( 6 ) which denotes the enum value: PHOTOS_EXIF_0ROW_RIGHT_0COL_TOP
+The Face detector needs to know the orientation of the captured image in order to correctly extract face features. The App has a fixed orientation of Landscape-Right, and the matching setting with it is to set the CIDetectorImageOrientation in the options dictionary of the featuresInImge: options: method to the integer ( 6 ) which denotes the enum value: PHOTOS_EXIF_0ROW_RIGHT_0COL_TOP
 
 -
 ####YunConnect -> NMSSH
