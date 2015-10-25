@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F9E5DE36D23B5782D5443D730214133B9198752D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8F2BB008674A7074F818814ABFEFB85ACE31D61D" : 0,
+    "F9E5DE36D23B5782D5443D730214133B9198752D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7C6D27E2-5308-4033-88E6-5D8FB8D149CE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8F2BB008674A7074F818814ABFEFB85ACE31D61D" : "AVDeepTrain",
+    "F9E5DE36D23B5782D5443D730214133B9198752D" : "EyeLearn"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AVDeepTrain",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AVDeepTrain.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/theCrescentPirate\/avdeeptrain.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F2BB008674A7074F818814ABFEFB85ACE31D61D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/theCrescentPirate\/eyelearn.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9E5DE36D23B5782D5443D730214133B9198752D"
+    }
+  ]
+}

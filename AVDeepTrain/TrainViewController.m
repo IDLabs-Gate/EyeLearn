@@ -295,9 +295,9 @@ static CGFloat DegreesToRadians(CGFloat degrees) {return degrees * M_PI / 180;};
     return false;
 }
 
--(NSUInteger)supportedInterfaceOrientations{
+-(UIInterfaceOrientationMask)supportedInterfaceOrientations{
     
-    return UIInterfaceOrientationLandscapeRight;
+    return UIInterfaceOrientationMaskLandscapeRight;
 }
 
 
@@ -2516,7 +2516,7 @@ static CGFloat DegreesToRadians(CGFloat degrees) {return degrees * M_PI / 180;};
     if (soundFlag) {
         AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString: words];
         utterance.voice = voice;
-        utterance.rate = 0.5*AVSpeechUtteranceDefaultSpeechRate;
+        utterance.rate = 1.1* AVSpeechUtteranceDefaultSpeechRate;
         utterance.volume = 0.5;
         [synth speakUtterance:utterance];
 
